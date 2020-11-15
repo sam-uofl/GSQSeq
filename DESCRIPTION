@@ -1,0 +1,24 @@
+Package: GSQSeq
+Type: Package
+Title: Gene Set Analysis with Quantitative Trait Loci for RNA-sequencing Data
+Version: 0.1.0
+Author: Samarendra Das
+Maintainer: Samarendra Das <samarendra.das@louisville.edu>
+Description: This package contains functions for gene set analysis (GSA) with Quantitative Trait Loci (QTL) annotation data
+    for gene expression data derived from Microarrays and RNA-sequencing studies. Further, it considers the differential expression
+    scores of genes present in the gene set for performing GSA with QTL.
+License: GPL (> 2.0)
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+RoxygenNote: 7.1.1
+Imports:
+    stats,
+    e1071,
+    BootMRMR,
+    GSAQ,
+    DESeq2,
+    edgeR,
+    S4Vectors
+Suggests: 
+    testthat
